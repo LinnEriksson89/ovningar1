@@ -11,6 +11,6 @@
 
 <h1>Övningssida!</h1>
 <p>Det här är en övningssida för php.</p>
-    
+    <?php echo "Hello World!" ?>
 </body>
 </html>
