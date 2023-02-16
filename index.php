@@ -105,6 +105,25 @@
         $string = "Linn";
         echo "<p>Antal tecken i $string är " . sumOfChars($string) . ".</p>";
     ?>
+
+    <!--Övning 3.2:-->
+    <?php
+        $text = "Linn";
+
+        function sixChars($text) {
+            if(mb_strlen($text) >= 6) {
+                return $test = true;
+            } else {
+                return $test = false;
+            }
+        }
+
+        if(sixChars($text)) {
+            echo "<p>Textsträngen ($text) är mer än sex tecken lång!</p>";
+        } else {
+            echo "<p>Textsträngen ($text) är av godkänd längd.</p>";
+        }
+    ?>
     
 </body>
 </html>
