@@ -77,5 +77,24 @@
         ?>
     </p>
 
+    <!--Övning 2.3:-->
+    <?php
+        $a = "5.3";
+        $b = "8.1";
+
+        $a = floatval($a);
+        $b = floatval($b);
+
+        echo "<p>$a gånger $b är " . $a*$b . "</p>";
+
+        echo "<p>$a gånger $b är ungefär lika med " . round($a*$b, 1) . "</p>";
+
+        $a = intval($a);
+        $b = intval($b);
+
+        echo "<p>$a gånger $b är " . $a*$b . "</p>";
+
+        ?>
+
 </body>
 </html>
