@@ -62,5 +62,18 @@
         echo "<p>Hej " . $firstname . " " . $surname . "!</p>";
         echo "<p>Hej $firstname $surname!</p>";
     ?>
+
+    <!--Övning 2.2:-->
+    <?php
+        $a = 5;
+        $b = 10;
+
+        echo "$a plus $b är " . $a+$b . "<br>";
+        echo "$a gånger $b är " . $a*$b . "<br>";
+        echo "$a delat med $b är " . $a/$b . "<br>";
+        echo "Resten (modulus) av $b delat med $a är " . $b%$a . "<br>";
+
+    ?>
+
 </body>
 </html>
