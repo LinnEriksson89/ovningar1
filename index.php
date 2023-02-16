@@ -39,5 +39,19 @@
         ?>
     </p>
 
+
+    <!--Övning 1.4:-->
+
+    <p>
+        <?php
+            printString("Hello World!");
+        ?>
+    </p>
+
+    <?php
+        function printString($text) {
+            echo $text;
+        }
+    ?>
 </body>
 </html>
