@@ -15,3 +15,5 @@ Uppgiften består av ett antal enklare övningar för att introducera till PHP. 
     * Byta plats på tecken
 * Loopar av olika slag
 * Hantering av arrays.
+
+Linn Eriksson, 2023-02-16
