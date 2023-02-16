@@ -94,7 +94,17 @@
 
         echo "<p>$a gånger $b är " . $a*$b . "</p>";
 
-        ?>
+    ?>
 
+    <!--Övning 3.1:-->
+    <?php
+        function sumOfChars($string) {
+            return strlen($string);
+        }
+
+        $string = "Linn";
+        echo "<p>Antal tecken i $string är " . sumOfChars($string) . ".</p>";
+    ?>
+    
 </body>
 </html>
