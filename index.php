@@ -11,12 +11,12 @@
 
 <h1>Övningssida!</h1>
 <p>Det här är en övningssida för php.</p>
-    <!--Övning 1:-->
+    <!--Övning 1.1:-->
     <?php 
         echo "<p>Hello World!</p>"; 
     ?>
 
-    <!--Övning 2:-->
+    <!--Övning 1.2:-->
     <?php
         function writeHelloWorld() {
             echo "Hello World!";
@@ -26,7 +26,7 @@
         <?php writeHelloWorld(); ?>
     </p>
 
-    <!--Övning 3:-->
+    <!--Övning 1.3:-->
     <?php
         function returnText() {
             return "Hello World!";
