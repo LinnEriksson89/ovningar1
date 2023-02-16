@@ -99,7 +99,7 @@
     <!--Övning 3.1:-->
     <?php
         function sumOfChars($string) {
-            return strlen($string);
+            return mb_strlen($string);
         }
 
         $string = "Linn";
