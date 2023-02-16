@@ -53,5 +53,14 @@
             echo $text;
         }
     ?>
+
+    <!--Övning 2.1:-->
+    <?php
+        $firstname = "Linn";
+        $surname = "Eriksson";
+
+        echo "<p>Hej " . $firstname . " " . $surname . "!</p>";
+        echo "<p>Hej $firstname $surname!</p>";
+    ?>
 </body>
 </html>
