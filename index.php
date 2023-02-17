@@ -153,5 +153,18 @@
 
         echo "</p>";
     ?>
+
+    <!--Övning 4.2-->
+    <?php
+        echo "<p>";
+
+        $a = 1;
+        while ($a <= 5) {
+            echo "Hello World!<br>";
+            $a++;
+        }
+
+        echo "</p>";
+    ?>
 </body>
 </html>
