@@ -166,5 +166,17 @@
 
         echo "</p>";
     ?>
+
+    <!--Övning 4.3:-->
+    <?php
+        $cars = array("Volvo", "Saab", "Fiat", "Honda", "Seat", "Skoda");
+        $tempInt = count($cars);
+
+        echo "<ul>";
+        foreach($cars as $car) {
+            echo "<li>$car</li>";
+        }
+        echo "</ul>";
+    ?>
 </body>
 </html>
