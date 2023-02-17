@@ -142,5 +142,16 @@
 
         switchChars("Linn");
     ?>
+
+    <!--Övning 4.1:-->
+    <?php
+        echo "<p>";
+
+        for ($i=0; $i < 5; $i++) { 
+            echo "Hello World!<br>";
+        }
+
+        echo "</p>";
+    ?>
 </body>
 </html>
