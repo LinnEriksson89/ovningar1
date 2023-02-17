@@ -125,5 +125,22 @@
         }
     ?>
     
+    <!--Övning 3.3:-->
+    <?php
+        function switchChars($text) {
+            $tempInt = mb_strlen($text) - 1;
+            $tempArray = mb_str_split($text);
+            $tempFirst = $tempArray[0];
+            $tempLast = $tempArray[$tempInt];
+            $tempArray[0] = $tempLast;
+            $tempArray[$tempInt] = $tempFirst;
+
+            $text = implode($tempArray);
+
+            echo "<p>$text</p>";
+        }
+
+        switchChars("Linn");
+    ?>
 </body>
 </html>
