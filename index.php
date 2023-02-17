@@ -178,5 +178,25 @@
         }
         echo "</ul>";
     ?>
+
+    <!--Övning 4.4:-->
+    <?php
+        $teachers = array(
+            "Mattias Dahlgren" => "mattias.dahlgren@miun.se",
+            "Mikael Hasselmalm" => "mikael.hasselmalm@miun.se",
+            "Elisabeth Gradin" => "elisabeth.gradin@miun.se",
+            "Jan-Erik Jonsson" => "jan-erik.jonsson@miun.se"
+           ); 
+
+        echo "<table><tr><th>Namn</th><th>E-post</th></tr>";
+
+        foreach($teachers as $name => $email) {
+            echo "<tr><td>$name</td><td><a href='mailto:$email'>$email</a></td></tr>";
+        }
+
+        echo "</table>";
+    
+    ?>
+
 </body>
 </html>
